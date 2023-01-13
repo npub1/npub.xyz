@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://mempool.space/mempool.js"></script>
+</head>
+
+<body>
+  <nav id="menuBar">
+    <a href="index.html">Home</a>
+    <a href="blocks.html">Blocks</a>
+    <a href="writing.html">Writing</a>
+    <a href="contact.html">Contact</a>
+    <button id="darkModeToggle">🌙</button>
+  </nav>
+
+  <div id="introduction">
+    <h1>Welcome to my website!</h1>
+    <p>My name is Courage, and I'm a computer and Bitcoin enthusiast.</p>
+    <img src="pictures/Bitcoin.svg.png" style="width: 25%; height: 25%;" alt="A photo of John Doe">
+    <p>I created this website as a way to share my knowledge and interest in Bitcoin technology. Feel
+      free to explore the different sections of the website to learn more.</p>
+    <p>In this website, you will find tutorials, articles, and projects related to Bitcoin technology, as
+      well as my personal thoughts and insights on the industry.</p>
+</body>
+
+
+<script>
+  /*** THE BELOW NEEDS TO BE ADDED TO ALL THE .HTML FILES FOR MENU HIGHLIGHTING***/
+  const menuLinks = document.querySelectorAll("#menuBar a");
+  menuLinks.forEach((link) => {
+    link.addEventListener("mouseenter", (event) => {
+      event.target.style.color = "gray";
+    });
+    link.addEventListener("mouseleave", (event) => {
+      event.target.style.color = "white";
+    });
+  });
+</script>
+<script src="darkmode.js"></script>
+
+
+</html>

@@ -1,0 +1,202 @@
+.courage {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#writing_header {
+  color: #F7931A;
+}
+
+.writing {
+  background-image: url("pictures/fractal.png");
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+#menuBar {
+  background-color: #F7931A;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  /* add rounded corners to the menu bar */
+  display: flex;
+  justify-content: space-between;
+  /* align menu items to the left and button to the right */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#block_page_header {
+  background-color: #F7931A;
+  padding: 5px;
+  width: 50%;
+  margin-left: 25%;
+  color: white;
+  border-radius: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+#menuBar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#menuBar #darkModeToggle {
+  /* styles for the dark mode toggle button */
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  /* add rounded corners to the button */
+}
+
+#menuBar #darkModeToggle:hover {
+  /* styles for when the button is hovered over */
+  background-color: white;
+  color: #F7931A;
+}
+
+.dark-mode #menuBar #darkModeToggle {
+  /* styles for the dark mode toggle button */
+  background-color: transparent;
+  border: 2px solid #333;
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  /* add rounded corners to the button */
+}
+
+.dark-mode #menuBar #darkModeToggle:hover {
+  /* styles for when the button is hovered over */
+  background-color: #333;
+  color: #F7931A;
+}
+
+/* Normal mode styles */
+body {
+  background-color: #F8F8F8;
+  color: #333;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #333;
+  color: #F8F8F8;
+}
+
+#result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+Copy code #menuBar {
+  background-color: #F7931A;
+  /* This is a bright orange color that is similar to the color of the Bitcoin logo */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#menuBar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#result .block {
+  background-color: #F8F8F8;
+  border-style: solid;
+  border-color: #F7931A;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  width: 30%;
+  margin: 10px;
+  height: 125px;
+}
+
+.dark-mode #result .block {
+  background-color: #F7931A;
+  color: #F7931A;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  width: 30%;
+  margin: 10px;
+  height: 125px;
+}
+
+#result .block .tx-count {
+  color: #F7931A;
+  /* This is a bright orange color that is similar to the color of the Bitcoin logo */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#result .block .timestamp {
+  color: #F7931A;
+  /* This is a bright orange color that is similar to the color of the Bitcoin logo */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#result .block .height {
+  color: #F7931A;
+  /* This is a bright orange color that is similar to the color of the Bitcoin logo */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#result .block .weight {
+  color: #F7931A;
+  /* This is a bright orange color that is similar to the color of the Bitcoin logo */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dark-mode #result .block .tx-count {
+  color: #333;
+  /* This is a bright orange color that is similar to the color of the Bitcoin logo */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dark-mode #result .block .timestamp {
+  color: #333;
+  /* This is a bright orange color that is similar to the color of the Bitcoin logo */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dark-mode #result .block .height {
+  color: #333;
+  /* This is a bright orange color that is similar to the color of the Bitcoin logo */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dark-mode #result .block .weight {
+  color: #333;
+  /* This is a bright orange color that is similar to the color of the Bitcoin logo */
+  font-size: 20px;
+  font-weight: bold;
+}

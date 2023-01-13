@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://mempool.space/mempool.js"></script>
+  <script src="blocks.js"></script>
+</head>
+
+<body onload="init()">
+  <nav id="menuBar">
+    <a href="index.html">Home</a>
+    <a href="blocks.html">Blocks</a>
+    <a href="writing.html">Writing</a>
+    <a href="contact.html">Contact</a>
+    <button id="darkModeToggle">🌙</button>
+  </nav>
+
+  <h1 id="block_page_header">Recently Confirmed Blocks</h1>
+
+  <div id="result"></div>
+  <footer id="block_page_footer" style="text-align: center; font-family: 'Courier New', Courier, monospace;">this page
+    pulls its block info from the <a href="https://mempool.space/docs/api/rest">mempool.space</a> api.</footer>
+</body>
+
+<script src="darkmode.js"></script>
+
+<style>
+  #block_page_footer a {
+    color: #F7931A;
+    text-decoration: none;
+  }
+
+  #block_page_footer a:visited {
+    color: #F7931A;
+    text-decoration: none;
+  }
+</style>
+
+</html>
